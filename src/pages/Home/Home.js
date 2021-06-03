@@ -22,7 +22,7 @@ const Home = () => {
                   <div className="header-main-scroll"></div>
                   <h5>Hi,I am</h5>
                   <h1>VIVAAN PRASHANT KARULKAR</h1>
-                  {/* <Dynamictext/> */}
+                  <Dynamictext/>
                 </div>
                 <div className="header-content">
                   <ul className="header-ul">
