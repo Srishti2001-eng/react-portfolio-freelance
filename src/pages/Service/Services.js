@@ -1,13 +1,29 @@
-import React from 'react'
+import React from 'react';
+import "./Profile.css";
+import Card from './Card';
+import Pdata from './Pdata';
+import Footer from "../Footer/Footer";
+
+
+
+
 const Services = () => {
   return (
-    <div className="container">
-    
-        <h1 className="text-center" style={{paddingTop: "20%"}}>
-          Services
-        </h1>
-        
-    </div>
+    <>
+
+      <h1 className="Profile-heading">PORTFOLIO</h1>
+      
+      {Pdata.map((val) => {
+        return(
+      <Card
+        imgsrc={val.imgsrc}
+        link={val.link}
+      />
+        );
+})};
+      <Footer />
+    </>
+
   )
 }
 export default Services;
