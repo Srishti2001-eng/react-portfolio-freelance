@@ -4,7 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background: #fff; /* fallback for old browsers */
   /* background-color:black */
-  height:4000px
+  height:100%;
 }
 * {
   margin: 0;
@@ -152,4 +152,16 @@ i {
     bottom: -25px;
     left: -25px;
   }
+}
+
+.nav-item-bttn-list{
+  margin-left: 70px;
+}
+.nav-item-bttn{
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding:20px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 5px 5px white;
 }

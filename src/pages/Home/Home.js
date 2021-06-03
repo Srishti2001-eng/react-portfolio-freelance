@@ -7,6 +7,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { HiPhone } from "react-icons/hi";
 import { HiMail } from "react-icons/hi";
+import Dynamictext from "./DynamicText/Dynamictext"
 import "./Home.css";
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
                   <div className="header-main-scroll"></div>
                   <h5>Hi,I am</h5>
                   <h1>VIVAAN PRASHANT KARULKAR</h1>
+                  {/* <Dynamictext/> */}
                 </div>
                 <div className="header-content">
                   <ul className="header-ul">
