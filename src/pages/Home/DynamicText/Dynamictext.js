@@ -1,20 +1,33 @@
 import React from 'react';
-// import "./typed.min.js"
+import Typical from 'react-typical';
+import "./Dynamictext.css"
 
 
-// const typed = new Typed('.type',{ 
-//     string:['Writer','Social Media Influncer','Youtuber'], 
-//     typeSpeed:60,
-//     backSpeed:60,
-//     loop:true,
-// });
+
 
 const Dynamictext = ()=>{
     return(
         <>
         <div>
-            <h3>I am a</h3>
-            <p className="type"></p>
+            <p className="dynamic-text">I'm a 
+                <Typical
+                    loop={Infinity}
+                    wrapper="b"
+                    steps={
+                        [
+                            ' Writer🖋',
+                            1000,
+                            ' Social Media Influencer📷',
+                            1000,
+                            ' Youtuber🎥',
+                            1000
+
+                        ]
+                    }
+                />
+            
+            </p>
+            
         </div>
         
         </>
