@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css"
+import Footer from "./pages/Footer/Footer";
+
 
 import {
   BrowserRouter as Router,
@@ -15,6 +17,7 @@ import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
   return (
+    <>
     <Router>
       <Navbar />
       <main>
@@ -33,6 +36,12 @@ const App = () => {
         </Switch>
       </main>
     </Router>
+
+
+    <Footer/>
+    </>
+
+    
   );
 };
 

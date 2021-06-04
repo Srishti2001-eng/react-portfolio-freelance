@@ -1,142 +1,112 @@
-.Contact-container{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    text-align: center;
+.Contact-container {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
 }
 
-.contact-heading-header{
-    width:100%;
-    height:30%;
-    padding-top: 130px;
-    background-color:rgb(26, 26, 87);
-    color:white !important;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
+.contact-heading-header {
+  width: 100%;
+  height: 30%;
+  padding-top: 130px;
+  background-color: rgb(26, 26, 87);
+  color: white !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
- .Contact-heading-main h1{
-    font-weight:700;
-    color: #282528;
-    text-transform: uppercase;
-    font-size: 36px;
-    text-align: center;
-    justify-content: center;
-    
-
-} 
-/* .Contact-border{
-    width: 300px;
-    border-bottom: 1px solid #2196f3;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-} */
-.Contact-heading-main{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.contact-heading-header-link-button{
-    float: right;
-    color:rgb(20, 65, 189);
-    border: 3px solid #fff;
-    padding: 10px 25px;
-    font-weight: 600;
-    border-radius: 50px;
-    /* margin-top: 35px; */
-    transition: .4s;
-    cursor: pointer;
+.contact-heading-header-link-button {
+  float: right;
+  color: rgb(20, 65, 189);
+  border: 3px solid #fff;
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: 0.4s;
+  cursor: pointer;
 }
 
-.contact-heading-header-link-button:hover{
-    background-color:black !important;
-    color:white !important;
+.contact-heading-header-link-button:hover {
+  background-color: black !important;
+  color: white !important;
 }
 
-.Contact-form-main{
-    padding:50px;
+.Contact-heading-main h1 {
+  font-weight: 700;
+  color: #282528;
+  text-transform: uppercase;
+  font-size: 36px;
+  text-align: center;
+  justify-content: center;
 }
 
-.Contact-form-div{
+.Contact-heading-main {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.Contact-form-main {
+  padding: 50px;
+}
+
+.Contact-form-div {
   display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: auto auto;
   grid-gap: 10px;
-  /* background-color: #2196F3; */
-  /* padding-left: 5px; */
 }
 
-.Contact-form-div > div{
+.Contact-form-div > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 10px ;
+  padding: 10px;
   font-size: 30px;
   /* padding-bottom: 200px; */
-
 }
 
-.Contact-form-div-one{
-    grid-row: 1/ 3;
+.Contact-form-div-one {
+  grid-row: 1/ 3;
 }
 
-.Contact-form-div-two-text{
-    align-items: center;
-    justify-content: center;
-    /* padding-top: 20%; */
+.Contact-form-div-two-text {
+  align-items: center;
+  justify-content: center;
 }
 
-.Contact-form-div-two h4{
-    font-size:25px;
-    align-items: center;
-    justify-content: center;
+.Contact-form-div-two h4 {
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
 }
-.Contact-form-div-two p{
-    font-size:15px;
-}
-
-.Contact-form-div-three-text{
-    align-items: center;
-    justify-content: center;
-    /* padding-top: 20%; */
+.Contact-form-div-two p {
+  font-size: 15px;
 }
 
-.Contact-form-div-three h4{
-    font-size:25px;
-    align-items: center;
-    justify-content: center;
-}
-.Contact-form-div-three p{
-    font-size:15px;
+.Contact-form-div-three-text {
+  align-items: center;
+  justify-content: center;
 }
 
-/* .Contact-form-div-four-text{
-    align-items: center;
-    justify-content: center;
-    padding-top: 20%;
+.Contact-form-div-three h4 {
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.Contact-form-div-three p {
+  font-size: 15px;
 }
 
-.Contact-form-div-four h4{
-    font-size:25px;
-    align-items: center;
-    justify-content: center;
+@media (max-width: 950px) {
+  .Contact-form-div {
+    display: block;
+  }
+  .contact-heading-header {
+    display: block;
+  }
+  .contact-heading-header-link-button{
+      float:none;
+      padding:10px;
+      margin-bottom: 10px;
+  }
 }
-.Contact-form-div-four p{
-    font-size:15px;
-}
-
-.Contact-form-div-five-text{
-    align-items: center;
-    justify-content: center;
-    padding-top: 20%;
-}
-
-.Contact-form-div-five h4{
-    font-size:25px;
-    align-items: center;
-    justify-content: center;
-}
-.Contact-form-div-five p{
-    font-size:15px;
-} */

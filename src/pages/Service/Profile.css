@@ -1,14 +1,16 @@
+.Profile-container-main{
+    padding-top: 80px;
+ }
+ 
  .Profile-heading{
-     padding:6%;
      text-align: center;
      font-family: sans-serif;
      text-transform: uppercase;
      font-size: 36px;
      letter-spacing:2px;
      font-weight: 500;
-     color: black;
+     padding-bottom: 30px;
      background-color:#fff;
-     margin-bottom: 30px;
      
 }
 
@@ -17,9 +19,22 @@
     justify-content:space-around;
     align-items:center;
     height:100%;
+    width:100%;
     padding: 20px;
-    width: 100%;
     background-color: #d2dbdd;
 
 }
+
+@media (max-width:800px){
+    .profile-image-container-main{
+        display:block;
+        justify-content:space-between;
+        align-items:center;
+        column-gap: 20px;
+    }
+    
+    
+    
+}
+
 

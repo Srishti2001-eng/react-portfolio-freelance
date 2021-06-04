@@ -1,5 +1,6 @@
 .Profile-card-img img{
     height:300px;
+    width:300px;
     display:block; 
     justify-content: center;
     align-items: center;
@@ -9,17 +10,14 @@
     transform: scale(1.05,1.05);
 }
 
-.Profile-button{
+button{
     background-color:black;
     color:white;
     border: 1px solid black;
     align-items: center;
-    width:100%
+   width:300px;
 }
 
-.Profile-cards{
-    background-color: black;
-}
 
 .Profile-card-img button{
     opacity: 0;
@@ -28,3 +26,16 @@
 .Profile-card-img:hover button{
     opacity: 1;
 }
+
+@media (max-width:800px){
+    .Profile-card-img{
+        margin-bottom: 30px;
+        align-items: center;
+        margin-left: 30%;
+    }
+
+    .Profile-cards{
+        align-items: center;
+    }
+}
+

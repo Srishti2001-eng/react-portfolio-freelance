@@ -12,31 +12,31 @@ const Services = () => {
 
         <div className="profile-image-container-main">
           <Card
+            className="facts"
             imgsrc="./image/fg.jpg"
-            link="https://www.instagram.com/facttoxic/?utm_medium=copy_link"
+            link="https://instagram.com/facts.gyaan?utm_medium=copy_link"
           />
           <Card
             imgsrc="./image/pt.jpg"
-            link="https://www.instagram.com/plex_tree_official/?utm_medium=copy_link"
+            link="https://instagram.com/facttoxic?utm_medium=copy_link"
           />
           <Card
             imgsrc="./image/ve-sc.jpg"
-            link="https://www.instagram.com/versatile_science/?utm_medium=copy_link"
+            link="https://instagram.com/versatile_science?utm_medium=copy_link"
           />
         </div>
         <div className="profile-image-container-main">
-        <Card
+          <Card
             imgsrc="./image/vv.jpg"
-            link="https://www.instagram.com/vivaankarulkar/?utm_medium=copy_link"
+            link="https://instagram.com/vivaankarulkar?utm_medium=copy_link"
           />
 
           <Card
             imgsrc="./image/fatt.jpg"
-            link="https://instagram.com/facts.gyaan?utm_medium=copy_link"
+            link="https://instagram.com/plex_tree_official?utm_medium=copy_link"
           />
         </div>
       </div>
-      <Footer />
     </>
   );
 };

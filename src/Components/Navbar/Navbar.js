@@ -92,7 +92,7 @@ const Navbar = () => {
         </ul>
 
         <div className="nav-item-bttn-list">
-            <button className="nav-item-bttn">Chat With Vivan </button>
+            <a href="https://t.me/Vivaan2007"><button className="nav-item-bttn">Chat With Vivan </button></a>
           </div>
       </div>
     </nav>

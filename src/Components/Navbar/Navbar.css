@@ -2,9 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #fff; /* fallback for old browsers */
-  /* background-color:black */
-  height:100%;
+  background: #fff; 
 }
 * {
   margin: 0;
@@ -122,7 +120,7 @@ i {
   bottom: 0;
   left: -25px;
 }
-@media (max-width: 991px) {
+@media (max-width:991px) {
   #navbarSupportedContent ul li a {
     padding: 12px 30px;
   }
@@ -151,6 +149,12 @@ i {
   .hori-selector .right:before {
     bottom: -25px;
     left: -25px;
+  }
+}
+
+@media (max-width:600px){
+  .navbar-toggler{
+    margin-right: -100px;
   }
 }
 

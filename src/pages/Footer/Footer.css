@@ -1,14 +1,19 @@
 .Footer-container{
+    position: absolute;
+    left:0;
     width: 100%;
-    height:20vh;
+    height:17vh;
     background-color: black;
+    overflow:hidden;
     color: white;
-    display:flex;
+    
+}
+.Footer-container-main{
+    align-items: center;
+    text-align: center;
 }
 
 .Footer-container-main-header{
     text-align: center;
     justify-content:space-around;
-    margin-left: 600px;
-
 }
