@@ -56,8 +56,9 @@ const Form = () => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
             ></textarea>
-
+            <div className="form-button">
             <input className="button" type="submit" value="Send Message"></input>
+            </div>
         </form>
     );
 };

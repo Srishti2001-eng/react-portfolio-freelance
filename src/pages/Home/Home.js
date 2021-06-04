@@ -75,7 +75,9 @@ const Home = () => {
                 </ul>
               </div>
               <div className="header-bottom-div-two">
-                <div className="header-bottom-div-two-image"></div>
+                <div className="header-bottom-div-two-image pulse">
+                  <div className="heart"></div>
+                </div>
               </div>
               <div className="header-bottom-div-three">
                 <h1>My Professional Skills</h1>
