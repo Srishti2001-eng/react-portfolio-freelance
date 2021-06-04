@@ -27,7 +27,7 @@ button{
     opacity: 1;
 }
 
-@media (max-width:800px){
+@media (max-width:900px){
     .Profile-card-img{
         margin-bottom: 30px;
         align-items: center;
@@ -37,5 +37,19 @@ button{
     .Profile-cards{
         align-items: center;
     }
+}
+
+@media (max-width:540px){
+    .Profile-card-img{
+        margin-left: 20%;
+    }
+
+}
+
+@media (max-width:400px){
+    .Profile-card-img{
+        margin-left: 10%;
+    }
+
 }
 

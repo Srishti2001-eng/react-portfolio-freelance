@@ -158,6 +158,14 @@ i {
   }
 }
 
+@media (max-width:490px){
+  .navbar-toggler{
+    margin-right: -130px;
+    margin-left: -100px;
+
+  }
+}
+
 .nav-item-bttn-list{
   margin-left: 70px;
 }
