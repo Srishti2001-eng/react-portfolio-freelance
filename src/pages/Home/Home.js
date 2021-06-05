@@ -6,6 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { HiMail } from "react-icons/hi";
 import profilrimg from "../../images/portfolio-image.jpg";
+import Dynamictext from "./DynamicText/Dynamictext"
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
           <div className="home-header-text">
             <h5>Hi,I am</h5>
             <h1>VIVAAN PRASHANT KARULKAR</h1>
+            <Dynamictext/>
           </div>
           <div className="home-header-icons">
             <div></div>

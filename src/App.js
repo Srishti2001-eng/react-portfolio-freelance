@@ -25,19 +25,15 @@ const App = () => {
           <Route path="/" exact>
             <Home />
           </Route>
-
-          <Route path="/service" exact>
+          <Route path="/social">
             <Services />
           </Route>
-          <Route path="/contact" exact>
+          <Route path="/contact">
             <Contact />
           </Route>
-          <Redirect to="/" />
         </Switch>
       </main>
     </Router>
-
-
     <Footer/>
     </>
 
