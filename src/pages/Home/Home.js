@@ -36,9 +36,9 @@ const Home = () => {
                   <FaInstagramSquare />
                 </a>
               </li>
-              <a href="#sec-2">
+              {/* <a href="#sec-2">
                 <div className="scroll-down"></div>
-              </a>
+              </a> */}
             </ul>
             <div></div>
           </div>
