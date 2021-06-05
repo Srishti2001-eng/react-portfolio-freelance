@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css"
+import Footer from "./pages/Footer/Footer";
+
 
 import {
   BrowserRouter as Router,
@@ -15,6 +17,7 @@ import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
   return (
+    <>
     <Router>
       <Navbar />
       <main>
@@ -22,17 +25,22 @@ const App = () => {
           <Route path="/" exact>
             <Home />
           </Route>
-
-          <Route path="/service" exact>
+          <Route path="/social" >
             <Services />
           </Route>
-          <Route path="/contact" exact>
+          <Route path="/contact" >
             <Contact />
           </Route>
           <Redirect to="/" />
         </Switch>
       </main>
     </Router>
+
+
+    <Footer/>
+    </>
+
+    
   );
 };
 
