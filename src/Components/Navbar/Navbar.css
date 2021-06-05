@@ -152,10 +152,23 @@ i {
   }
 }
 
+.nav-item-bttn-list{
+  margin-left: 70px;
+}
+
+@media(max-width:991px){
+  .nav-item-bttn-list{
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+}
+
 @media (max-width:600px){
   .navbar-toggler{
     margin-right: -100px;
+    
   }
+  
 }
 
 @media (max-width:490px){
@@ -166,9 +179,7 @@ i {
   }
 }
 
-.nav-item-bttn-list{
-  margin-left: 70px;
-}
+
 .nav-item-bttn{
   background-color: black;
   color: white;
