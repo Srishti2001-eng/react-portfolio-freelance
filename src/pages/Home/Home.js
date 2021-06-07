@@ -89,7 +89,7 @@ const Home = () => {
                 (name: Vivastro). I am the founder of a mobile application that
                 helps in supporting the environment, named Plextree. I also have
                 a channel with about 1000 subscribers called “Versatile Science”
-                on Youtube. And obviously, I have published a book titled “Why
+                on Youtube. And I have published a book titled “Why
                 so scared?”.
               </p>
             </div>

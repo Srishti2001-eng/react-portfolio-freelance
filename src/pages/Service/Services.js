@@ -35,6 +35,11 @@ const Services = () => {
             imgsrc="./image/fatt.jpg"
             link="https://instagram.com/plex_tree_official?utm_medium=copy_link"
           />
+
+          <Card
+            imgsrc="./image/vivsreel.jpg"
+            link="https://instagram.com/vivastroreels?utm_medium=copy_link"
+          />
         </div>
       </div>
     </>
